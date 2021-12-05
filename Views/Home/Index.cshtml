@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Página principal";
+}
+
+@*pode usar dessa forma com a nova tecnologia helper*@
+<partial name="_AvisoGeral" />
+
+@*pode usar dessa forma usando await*@
+@*await Html.PartialAsync("_AvisoGeral")*@
+
+@*<vc:Carrinho></vc:Carrinho>*@
+
+<div class="text-center">
+    <h1 class="display-4">Seja(m) todo(s) bem vindo(s)</h1>
+    <p>Conheça <a href="https://docs.microsoft.com/aspnet/core">Dominando o asp net mvc core com Eduardo Pires</a>.</p>
+</div>
